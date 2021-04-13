@@ -1,0 +1,166 @@
+  #image-1{
+      border-radius: 30px;
+      
+  }
+  .fa-desktop{
+      font-size: 20px;
+  }
+  .fa-laptop{
+      font-size: 20px;
+  }
+  .fa-tablet{
+      font-size: 20px;
+  }
+  .fa-mobile{
+      font-size: 20px;
+  }
+    @media all and  (max-width:1400px) and (min-width:1200px){
+        #left-btn{
+           position: fixed;
+           top: 0px;
+           right: 0px;
+        }
+    }
+    @media all and (max-width:800px) and (min-width:600px){
+        #left-btn{
+            position: fixed;
+            top: 0px;
+            right: 30px;
+        }
+    }
+    @media all and (max-width:600px) and (min-width:500px){
+        #left-btn{
+            position: fixed;
+            top: 0px;
+            left: 300px;
+        }
+    }
+    @media all and (max-width:500px) and (min-width:300px){
+        #left-btn{
+            position: fixed;
+            top: 0px;
+            left: 180px;
+        }
+        #btn-1{
+            font-size: 14px;
+        }
+    }
+
+    #section-1{
+        background: coral;
+    }
+    #row-2{
+        background: url("../image/observation-urban-building-business-steel_1127-2397.jpg") no-repeat center center/cover;
+
+    }
+       
+    #para-1{
+        background-color: white;
+        display: inline-block;
+        padding: 10px;
+        margin: 0px;
+    }
+    #para-2{
+        background-color: rgba(223, 101, 20, 0.9);
+        display: inline-block;
+        padding: 10px;
+        margin: 0px;
+    }
+    
+    /* /* hover effects on navigation buttons * */
+       .nav-item:hover{
+           background: rgba(255, 255, 255, 0.205);
+           
+       }
+    
+       /* 3rd para */
+          #para-3::after{
+              content: "";
+              display: block;
+              width: 100px;
+              height: 5px;
+              position: relative;
+              background-color: coral;
+              margin: auto;
+              margin-top: 15px;
+          }
+            #para-4::after{
+                  content: "";
+                  display: block;
+                  width: 80px;
+                  height: 5px;
+                  position: relative;
+                  background-color: orangered;
+                  margin: auto;
+                  margin-top: 10px;
+            }
+            #para-5::after{
+                content: "";
+                display: block;
+                width: 80px;
+                height: 3px;
+                position: relative;
+                background-color: orangered;
+                margin: auto;
+               margin-top: 10px;
+            }
+            #para-6::after{
+                content: "";
+                display: block;
+                width: 50px;
+                height: 3px;
+                position: relative;
+                background-color: white;
+
+            }
+            #para-7::after{
+                content: "";
+                display: block;
+                width: 50px;
+                height: 3px;
+                position: relative;
+                background-color: white;
+            }
+            #para-8::after{
+                content: "";
+                display: block;
+                width: 80px;
+                height: 3px;
+                position: relative;
+                background-color: white;
+                margin-top: 5px;
+            }
+            
+          /* styling icons */
+          .fa-anchor{
+              font-size: 60px;
+              color: orangered;
+
+          }
+          .fa-bar-chart{
+            font-size: 60px;
+            color: orangered;
+          }
+           
+          .fa-diamond{
+            font-size: 60px;
+            color: orangered;
+          }
+          .fa-bars{
+              color: white;
+          }
+
+          #section-2{
+              background: url("../image/18283_iPhone-7-Camera-Features.jpg") no-repeat center center/cover;
+          }
+          #section-6{
+              background-color: rgba(0, 0, 10, 0.705);
+          }
+          #image-2{
+              height: 60px;
+              border-radius: 30px;
+          }
+          #image-3{
+              height: 60px;
+              border-radius: 30px;
+          }
